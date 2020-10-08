@@ -1,0 +1,12 @@
+Source: ros-foxy-rover-driver
+Section: misc
+Priority: optional
+Maintainer: Nick Padilla <nickpadilla@roverrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-foxy-ament-cmake, ros-foxy-diagnostic-updater, ros-foxy-nav-msgs, ros-foxy-rclcpp, ros-foxy-rover-msgs, ros-foxy-std-msgs, ros-foxy-tf2-geometry-msgs, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-rover-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-foxy-diagnostic-updater, ros-foxy-nav-msgs, ros-foxy-rclcpp, ros-foxy-rover-msgs, ros-foxy-std-msgs, ros-foxy-tf2-geometry-msgs, ros-foxy-ros-workspace
+Description: Serial driver for Rover platform.
